@@ -17,6 +17,10 @@ export default {
 				'2xl': '1400px'
 			}
 		},
+		fontFamily: {
+			sans: ['Lexend', 'sans-serif'],
+			serif: ['Merriweather', 'serif'],
+		},
 		extend: {
 			colors: {
 				border: 'hsl(var(--border))',
@@ -51,6 +55,16 @@ export default {
 				card: {
 					DEFAULT: 'hsl(var(--card))',
 					foreground: 'hsl(var(--card-foreground))'
+				},
+				eco: {
+					leaf: '#4CAF50',
+					forest: '#388E3C',
+					mint: '#A5D6A7',
+					earth: '#8D6E63',
+					ocean: '#039BE5',
+					sky: '#B3E5FC',
+					tan: '#D7CCC8',
+					coral: '#FF8A65',
 				},
 				sidebar: {
 					DEFAULT: 'hsl(var(--sidebar-background))',
